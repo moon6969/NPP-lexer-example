@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\DockingFeature\GoToLineDlg.cpp" />
+    <ClCompile Include="..\src\DockingFeature\StaticDialog.cpp" />
+    <ClCompile Include="..\src\NppPluginDemo.cpp" />
+    <ClCompile Include="..\src\PluginDefinition.cpp" />
+    <ClCompile Include="..\src\Lexer\Lexer.cpp">
+      <Filter>Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Lexer\lexlib\DefaultLexer.cxx">
+      <Filter>Lexer\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Lexer\lexlib\CharacterSet.cxx">
+      <Filter>Lexer\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Lexer\lexlib\StyleContext.cxx">
+      <Filter>Lexer\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Lexer\lexlib\WordList.cxx">
+      <Filter>Lexer\lexlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\DockingFeature\Docking.h" />
+    <ClInclude Include="..\src\DockingFeature\DockingDlgInterface.h" />
+    <ClInclude Include="..\src\DockingFeature\dockingResource.h" />
+    <ClInclude Include="..\src\DockingFeature\GoToLineDlg.h" />
+    <ClInclude Include="..\src\DockingFeature\resource.h" />
+    <ClInclude Include="..\src\DockingFeature\StaticDialog.h" />
+    <ClInclude Include="..\src\DockingFeature\Window.h" />
+    <ClInclude Include="..\src\menuCmdID.h" />
+    <ClInclude Include="..\src\Notepad_plus_msgs.h" />
+    <ClInclude Include="..\src\PluginDefinition.h" />
+    <ClInclude Include="..\src\PluginInterface.h" />
+    <ClInclude Include="..\src\Scintilla.h" />
+    <ClInclude Include="..\src\Lexer\LexerInterface.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\LexerModule.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\scintilla\ILexer.h">
+      <Filter>Lexer\scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\scintilla\Sci_Position.h">
+      <Filter>Lexer\scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\scintilla\Scintilla.h">
+      <Filter>Lexer\scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\Lexer.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\DefaultLexer.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\CharacterSet.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\LexAccessor.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\StyleContext.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Lexer\lexlib\WordList.h">
+      <Filter>Lexer\lexlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\DockingFeature\goLine.rc" />
+    <ResourceCompile Include="..\src\NppPluginDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lexer">
+      <UniqueIdentifier>{d68069c9-5e53-4222-9e4d-80ecff869225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lexer\lexlib">
+      <UniqueIdentifier>{2d9d4c70-5f53-4616-8ffe-42a26a8f2797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lexer\scintilla">
+      <UniqueIdentifier>{d67513d3-7bc6-4188-a8ec-c9791ed2838d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Lexer\ExportsU.def">
+      <Filter>Lexer</Filter>
+    </None>
+  </ItemGroup>
+</Project>
