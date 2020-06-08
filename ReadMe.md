@@ -26,7 +26,9 @@ Copy the plugin dll to `plugins\LexerTemplate\LexerTemplate.dll`
 and the xml file to `plugins\Config\LexerTemplate.xml`
 "LexerTemplate" should appear:
 In *Language* menu...
+
 ![Language Menu](Media/Language.png)
+
 At the bottom of *Settings -> Style Configuration*...
 ![Style Configuration Menu](Media/Style.png)
 
